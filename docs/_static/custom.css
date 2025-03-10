@@ -1,0 +1,108 @@
+/* Custom styles for JAX von Mises documentation */
+
+/* Improve code block styling */
+div.highlight {
+    border-radius: 4px;
+    margin-bottom: 24px;
+}
+
+/* Math formula display */
+.math {
+    overflow-x: auto;
+    padding: 0.5em 0;
+}
+
+/* Improve headings */
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 1.5em;
+    margin-bottom: 0.8em;
+}
+
+.rst-content h1 {
+    border-bottom: 2px solid #e1e4e5;
+    padding-bottom: 0.3em;
+}
+
+.rst-content h2 {
+    border-bottom: 1px solid #e1e4e5;
+    padding-bottom: 0.3em;
+}
+
+/* Improve table styling */
+.rst-content table.docutils {
+    border: 1px solid #e1e4e5;
+    border-collapse: collapse;
+    margin-bottom: 24px;
+}
+
+.rst-content table.docutils td,
+.rst-content table.docutils th {
+    padding: 8px 16px;
+    border: 1px solid #e1e4e5;
+}
+
+.rst-content table.docutils thead th {
+    background-color: #f3f6f6;
+    font-weight: bold;
+}
+
+/* Improve note and warning boxes */
+.rst-content .note,
+.rst-content .warning,
+.rst-content .tip,
+.rst-content .important {
+    border-radius: 4px;
+    margin-bottom: 24px;
+}
+
+/* Improve code examples */
+.highlight pre {
+    padding: 12px 14px;
+    line-height: 1.5;
+}
+
+/* Improve API documentation */
+dl.class, dl.function {
+    margin-bottom: 40px;
+    padding: 15px;
+    background-color: #f8f8f8;
+    border-left: 3px solid #2980B9;
+    border-radius: 0 4px 4px 0;
+}
+
+dl.method, dl.attribute {
+    margin-top: 15px;
+    padding-left: 15px;
+    border-left: 2px solid #e1e4e5;
+}
+
+/* Fix overflowing code in API docs */
+.rst-content dl pre {
+    margin: 0;
+    overflow-x: auto;
+}
+
+/* Image styling */
+.figure {
+    margin: 1.5em 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.figure img {
+    display: block;
+    max-width: 100%;
+}
+
+.figure .caption {
+    padding: 10px;
+    background-color: #f8f8f8;
+    font-style: italic;
+    text-align: center;
+}
+
+/* Better navigation */
+.wy-menu-vertical li.current > a {
+    font-weight: bold;
+} 

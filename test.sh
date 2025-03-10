@@ -1,0 +1,1 @@
+SETUPTOOLS_SCM_PRETEND_VERSION=0.1.0 python -m pip install -e ".[dev]" && pip install pytest && python -m pytest -v
